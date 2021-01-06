@@ -13,7 +13,9 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            function (string $modelName) { return 'Proform\\TestPackege\\Database\\Factories\\'.class_basename($modelName).'Factory';}
+            function (string $modelName) {
+                return 'Proform\\TestPackege\\Database\\Factories\\'.class_basename($modelName).'Factory';
+            }
         );
     }
 
