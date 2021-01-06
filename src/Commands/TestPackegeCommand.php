@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\Skeleton\Commands;
+namespace Proform\TestPackege\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class TestPackegeCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'test-packege';
 
     public $description = 'My command';
 
