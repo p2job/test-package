@@ -4,7 +4,6 @@ namespace Proform\TestPackege;
 
 class TestPackege
 {
-
     public static function fromKilograms(float $kilograms)
     {
         return new static($kilograms);
