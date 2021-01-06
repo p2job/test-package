@@ -2,11 +2,8 @@
 
 namespace Proform\TestPackege;
 
-use Exception;
-
 class TestPackege
 {
-
     public static function fromKilograms(float $kilograms): self
     {
         return new static($kilograms);
